@@ -172,7 +172,6 @@ function injectStyles() {
     #tut-card {
       background: var(--surface, #131315);
       border: 1px solid var(--border, #252528);
-      border-radius: 20px;
       padding: 2rem 2rem 1.5rem;
       max-width: 520px;
       width: 100%;
@@ -209,7 +208,7 @@ function injectStyles() {
     #tut-card .tut-body kbd {
       background: var(--bg-base, #07090f);
       border: 1px solid var(--border-mid, #243356);
-      border-radius: 4px; padding: .1rem .35rem;
+      padding: .1rem .35rem;
       font-size: .78rem; color: var(--text-2, #94a3b8);
       font-family: inherit;
     }
@@ -242,7 +241,7 @@ function injectStyles() {
       background: var(--bg-elevated, #111827);
       border: 1px solid var(--border-mid, #243356);
       color: var(--text-1, #f0f4ff);
-      padding: .42rem 1rem; border-radius: 8px;
+      padding: .42rem 1rem;
       cursor: pointer; font-size: .85rem; font-weight: 600; font-family: inherit;
       transition: background .15s, border-color .15s;
     }
@@ -258,7 +257,7 @@ function injectStyles() {
       display: flex; align-items: center;
       background: var(--bg-base, #07090f);
       border: 1px solid var(--border, #1a2744);
-      border-radius: 12px; padding: .85rem 1rem; margin: .6rem 0;
+      padding: .85rem 1rem; margin: .6rem 0;
     }
     .tut-demo-upload {
       display: flex; flex-direction: column; align-items: center;
@@ -268,7 +267,7 @@ function injectStyles() {
       background: var(--bg-elevated, #111827);
       border: 1px solid var(--border-mid, #243356);
       color: var(--text-1, #f0f4ff);
-      padding: .28rem .85rem; border-radius: 99px; font-size: .85rem;
+      padding: .28rem .85rem; font-size: .85rem;
     }
     .tut-chip-active {
       background: var(--accent-dim, #1e3a6e);
@@ -278,21 +277,21 @@ function injectStyles() {
       display: flex; align-items: center; gap: .6rem;
       background: var(--bg-surface, #0d1424);
       border: 1px solid var(--border, #1a2744);
-      border-radius: 8px; padding: .45rem .85rem; font-size: .85rem;
+      padding: .45rem .85rem; font-size: .85rem;
     }
     .tut-scene-active {
       background: rgba(29,78,216,.1) !important;
       border-color: rgba(59,130,246,.35) !important;
     }
     .tut-check {
-      width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0;
+      width: 16px; height: 16px; flex-shrink: 0;
       background: var(--accent, #3b82f6);
       border: 2px solid var(--accent, #3b82f6); color: #fff;
       display: inline-flex; align-items: center; justify-content: center;
       font-size: .6rem;
     }
     .tut-check-empty {
-      width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0;
+      width: 16px; height: 16px; flex-shrink: 0;
       border: 2px solid var(--border-hi, #2d4270); display: inline-block;
     }
     .tut-mic-btn {
@@ -302,7 +301,7 @@ function injectStyles() {
       justify-content: center; flex-shrink: 0;
     }
     .tut-fb {
-      padding: .45rem .8rem; border-radius: 8px; font-size: .83rem;
+      padding: .45rem .8rem; font-size: .83rem;
     }
     .tut-fb-perfect { background: rgba(20,83,45,.6);  border: 1px solid rgba(22,101,52,.8);  color: #86efac; }
     .tut-fb-close   { background: rgba(113,63,18,.6); border: 1px solid rgba(146,64,14,.8);  color: #fde68a; }
