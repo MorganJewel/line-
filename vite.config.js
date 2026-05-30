@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/line-/',
   optimizeDeps: {
     // These packages bundle their own WASM / Web Workers internally.
     // Letting Vite re-bundle them produces enormous pre-bundled files that
